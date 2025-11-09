@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JokeanIntento1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60223d9fea073e53cac11fed6acabefe72eeef73")]
 [assembly: System.Reflection.AssemblyProductAttribute("JokeanIntento1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JokeanIntento1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

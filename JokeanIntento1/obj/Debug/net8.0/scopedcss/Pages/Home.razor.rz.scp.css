@@ -7,8 +7,8 @@
        Se debe usar 'text' o 'content-box', no la propiedad CSS 'text' como valor.
        Asegúrate que la propiedad 'background-clip' esté bien escrita. */
     background: linear-gradient(90deg, var(--primary), var(--secondary));
-    -webkit-background-clip: text;
-    background-clip: text;
+    -webkit-background-clip: 'text';
+    background-clip: 'text';
     color: transparent;
     text-shadow: 0 0 15px rgba(157, 0, 255, 0.5);
     animation: pulse-b-s9hbo89a8n 3s infinite alternate;

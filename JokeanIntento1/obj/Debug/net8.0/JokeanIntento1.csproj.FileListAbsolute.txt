@@ -1032,6 +1032,7 @@ C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\Jokea
 C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\ref\JokeanIntento1.dll
 C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\scopedcss\Pages\Home.razor.rz.scp.css
 C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\scopedcss\projectbundle\JokeanIntento1.bundle.scp.css
-C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\compressed\8mtpgtdzyn-sour9tapb1.gz
-C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\compressed\1iw1gux6wz-33e5ei8brn.gz
-C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\compressed\wz29obo641-hxk9vybmlb.gz
+C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\JokeanIntento1.sourcelink.json
+C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\compressed\8mtpgtdzyn-avkp25q3ou.gz
+C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\compressed\1iw1gux6wz-0hdgwvnbce.gz
+C:\Users\anfeb\source\repos\JokeanIntento1\JokeanIntento1\obj\Debug\net8.0\compressed\wz29obo641-mdbzwxoiem.gz
