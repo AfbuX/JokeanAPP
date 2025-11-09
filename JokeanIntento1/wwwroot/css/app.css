@@ -1,0 +1,57 @@
+/* Estilos originales de Blazor */
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+/* ... (Mantener el resto de los estilos originales de Blazor) ... */
+
+/* ---------------------------------------------------- */
+/* NUEVOS ESTILOS GLOBALES MOVIDOS DE HOME.RAZOR.CSS */
+/* ---------------------------------------------------- */
+
+/* Variables CSS para el tema ciberpunk */
+:root {
+    --primary: #9d00ff;
+    --secondary: #00e5ff;
+    --accent: #ff00e5;
+    --background: #050510;
+    --card-bg: rgba(20, 20, 40, 0.7);
+    --text-primary: #ffffff;
+    --text-secondary: #b8b8ff;
+    --glow-primary: 0 0 10px rgba(157, 0, 255, 0.7), 0 0 20px rgba(157, 0, 255, 0.5);
+    --glow-secondary: 0 0 10px rgba(0, 229, 255, 0.7), 0 0 20px rgba(0, 229, 255, 0.5);
+    --glow-accent: 0 0 10px rgba(255, 0, 229, 0.7), 0 0 20px rgba(255, 0, 229, 0.5);
+    --card-width: 300px; /* Mantener las variables base aquí */
+    --card-height: 420px;
+    --carousel-radius: 400px;
+    --transition-speed: 0.5s;
+}
+
+/* Reset y estilos de layout para que el carrusel funcione */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: "Chakra Petch", sans-serif;
+    background-color: var(--background);
+    color: var(--text-primary);
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+}
+
+/* Tipografía global */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
