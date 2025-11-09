@@ -1,2 +1,0 @@
-# JokeanAPP
-# JokeanIntento1
