@@ -1,10 +1,52 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿## Archivos de usuario de Visual Studio
+*.user
+*.userosscache
+*.sln.docstates
 
-/.vs/JokeanIntento1/FileContentIndex/b166765b-c6c5-40c1-b0a6-26b3d5a58232.vsidx
-/.vs/JokeanIntento1/FileContentIndex/a1a85894-b620-47f0-bbe0-18e03aa508ab.vsidx
-/.vs/JokeanIntento1/FileContentIndex/a3054f4f-f566-4668-8b61-93a14c2b8d65.vsidx
-/.vs/JokeanIntento1/FileContentIndex/c846a0d4-aa81-4dfc-a14e-c0f7d69dcc93.vsidx
-/.vs/JokeanIntento1/FileContentIndex/e27d5d85-20ff-4f21-966b-bc8561e9e604.vsidx
-/.vs/JokeanIntento1/FileContentIndex/e46d2b42-78da-49be-8164-8e75b40ae4c9.vsidx
+## Archivos de compilación
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+
+## Archivos de configuración de VS
+.vs/
+.vscode/
+
+## Paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Configuración de dependencias
+project.lock.json
+project.fragment.lock.json
+
+## Archivos de publicación
+publish/
+*.pubxml
+*.publishproj
+
+## Archivos de test y cobertura
+TestResults/
+*.coverage
+*.coveragexml
+
+## Archivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Archivos de backup
+*.bak
+*.swp
+*.tmp
+
+## Archivos de configuración de Rider/JetBrains
+.idea/
+*.iml
+
+## Archivos de configuración de Mac/Linux
+.DS_Store
