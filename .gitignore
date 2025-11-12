@@ -5,7 +5,7 @@
 
 ## Archivos de compilación
 bin/
-obj/
+[Oo]bj/
 [Bb]uild/
 [Ll]ogs/
 
@@ -50,3 +50,4 @@ Desktop.ini
 
 ## Archivos de configuración de Mac/Linux
 .DS_Store
+/JokeanIntento1/obj/Debug/net8.0/JokeanIntento1.assets.cache
