@@ -1,0 +1,51 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Build outputs
+bin/
+obj/
+publish/
+
+# Blazor / WebAssembly artifacts
+**/wwwroot/_framework/
+**/wwwroot/*.styles.css
+**/wwwroot/css/*.razor.css
+staticwebassets*
+*.wasm
+*.wasm.gz
+*.js.gz
+*.map
+*.pdb
+*.br
+
+# NuGet / packages
+*.nupkg
+packages/
+.project.lock.json
+
+# Node / front-end
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs, temporales
+*.log
+*.tmp
+*.cache
+*.DS_Store
+Thumbs.db
+
+# User-specific files
+*.ide.*
+*.orig
