@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\JokeanIntento1.csproj": {}
+    "C:\\Users\\m1tri\\Downloads\\JokeanAPP\\JokeanIntento1\\JokeanIntento1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\JokeanIntento1.csproj": {
+    "C:\\Users\\m1tri\\Downloads\\JokeanAPP\\JokeanIntento1\\JokeanIntento1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\JokeanIntento1.csproj",
+        "projectUniqueName": "C:\\Users\\m1tri\\Downloads\\JokeanAPP\\JokeanIntento1\\JokeanIntento1.csproj",
         "projectName": "JokeanIntento1",
-        "projectPath": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\JokeanIntento1.csproj",
-        "packagesPath": "C:\\Users\\Kate\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\obj\\",
+        "projectPath": "C:\\Users\\m1tri\\Downloads\\JokeanAPP\\JokeanIntento1\\JokeanIntento1.csproj",
+        "packagesPath": "C:\\Users\\m1tri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m1tri\\Downloads\\JokeanAPP\\JokeanIntento1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m1tri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,13 +63,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.21, )",
+              "version": "[8.0.19, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.10, )",
+              "version": "[9.0.8, )",
               "autoReferenced": true
             }
           },
@@ -87,7 +87,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.22, 8.0.22]"
+              "version": "[8.0.19, 8.0.19]"
             }
           ],
           "frameworkReferences": {
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

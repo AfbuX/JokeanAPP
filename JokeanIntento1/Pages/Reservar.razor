@@ -56,34 +56,120 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        // cuando exista API:
-        // servicio = await Http.GetFromJsonAsync<ServicioDTO>($"api/servicios/{servicioId}");
+        // Obtener el resultado del API
+        var resultado = await Http.GetFromJsonAsync<List<SolicitudServicioDTO>>(
+            $"api/SolicitudServicio/{servicioId}"
+        );
 
-        // temporal mientras no tengas API
+        if (resultado == null || resultado.Count == 0)
+        {
+            Console.WriteLine("No se encontró servicio");
+            return;
+        }
+
+        var item = resultado.First();
+
+        // Mapear SOLO lo que necesitas
         servicio = new ServicioDTO
         {
-            TipoTransporte = "Camión sencillo",
-            NombreConductor = "Carlos López",
-            Vehiculo = "NHR",
-            TelefonoConductor = "3001234567",
-            Descripcion = "Servicio de ejemplo",
-            Valor = 180000
+            TipoTransporte = item.TipoTransporteId.ToString(),
+            NombreConductor = item.Usuario?.Nombre,
+            TelefonoConductor = item.Usuario?.Telefono,
+            Vehiculo = $"{item.Transporte?.Marca} {item.Transporte?.Modelo}",
+            Descripcion = $"Solicitud número {item.Id}",
+            Valor = 0  // si tu API envía precio, cámbialo aquí
         };
     }
 
+
     async Task GuardarServicio()
     {
-        // aquí enviar a API
-        Console.WriteLine($"Reserva enviada para: {servicio?.NombreConductor}");
+        var nuevaReserva = new ServicioDT
+        {
+            LatitudOrigen = 6.25184,        
+            LongitudOrigen = -75.563591,
+            LatitudDestino = 6.265845,
+            LongitudDestino = -75.576598,
+            UsuarioId = 1001,
+            MetodoPagoId = 1001,
+            TipoTransporteId = 1001,
+            FechaSolicitud = DateTime.Now
+        };
 
-        Nav.NavigateTo("/");
+        
+        var response = await Http.PostAsJsonAsync("api/SolicitudServicio", nuevaReserva);
+
+        if (response.IsSuccessStatusCode)
+        {
+            Console.WriteLine("Reserva creada correctamente.");
+            Nav.NavigateTo("/");
+        }
+        else
+        {
+            var errorTexto = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"Error al guardar reserva: {response.StatusCode} - {errorTexto}");
+        }
     }
+
 
     void Volver()
     {
         Nav.NavigateTo("/");
     }
 
+    public class ServicioDT
+    {
+        public double LatitudOrigen { get; set; }
+        public double LongitudOrigen { get; set; }
+        public double LatitudDestino { get; set; }
+        public double LongitudDestino { get; set; }
+        public int UsuarioId { get; set; }
+        public int MetodoPagoId { get; set; }
+        public int TipoTransporteId { get; set; }
+        public DateTime FechaSolicitud { get; set; }
+
+ 
+    }
+
+    public class SolicitudServicioDTO
+    {
+        public UsuarioDTO? Usuario { get; set; }
+        public TransporteDTO? Transporte { get; set; }
+        public MetodoPagoDTO? MetodoPago { get; set; }
+
+        public int Id { get; set; }
+        public double LatitudOrigen { get; set; }
+        public double LongitudOrigen { get; set; }
+        public double LatitudDestino { get; set; }
+        public double LongitudDestino { get; set; }
+        public int TipoTransporteId { get; set; }
+        public int UsuarioId { get; set; }
+        public int MetodoPagoId { get; set; }
+        public DateTime FechaSolicitud { get; set; }
+    }
+
+    public class UsuarioDTO
+    {
+        public int Id { get; set; }
+        public string? Nombre { get; set; }
+        public string? Documento { get; set; }
+        public string? Telefono { get; set; }
+    }
+
+    public class TransporteDTO
+    {
+        public int Id { get; set; }
+        public string? Matricula { get; set; }
+        public string? Placa { get; set; }
+        public string? Marca { get; set; }
+        public string? Modelo { get; set; }
+    }
+
+    public class MetodoPagoDTO
+    {
+        public int Id { get; set; }
+        public string? Descripcion { get; set; }
+    }
     public class ServicioDTO
     {
         public string? TipoTransporte { get; set; }
@@ -92,6 +178,5 @@ else
         public string? TelefonoConductor { get; set; }
         public string? Descripcion { get; set; }
         public decimal Valor { get; set; }
-        public string? Estado { get; set; }
     }
 }

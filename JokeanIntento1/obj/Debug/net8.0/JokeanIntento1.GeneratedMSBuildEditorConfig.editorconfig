@@ -13,37 +13,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = JokeanIntento1
 build_property.RootNamespace = JokeanIntento1
-build_property.ProjectDir = C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\
+build_property.ProjectDir = C:\Users\m1tri\Downloads\JokeanAPP\JokeanIntento1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1
+build_property.MSBuildProjectDirectory = C:\Users\m1tri\Downloads\JokeanAPP\JokeanIntento1
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Kate/source/repos/AfbuX/JokeanAPP/JokeanIntento1/App.razor]
+[C:/Users/m1tri/Downloads/JokeanAPP/JokeanIntento1/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kate/source/repos/AfbuX/JokeanAPP/JokeanIntento1/Layout/MainLayout.razor]
+[C:/Users/m1tri/Downloads/JokeanAPP/JokeanIntento1/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kate/source/repos/AfbuX/JokeanAPP/JokeanIntento1/Pages/Post/ListarPosts.razor]
+[C:/Users/m1tri/Downloads/JokeanAPP/JokeanIntento1/Pages/Post/ListarPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFxMaXN0YXJQb3N0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kate/source/repos/AfbuX/JokeanAPP/JokeanIntento1/_Imports.razor]
+[C:/Users/m1tri/Downloads/JokeanAPP/JokeanIntento1/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kate/source/repos/AfbuX/JokeanAPP/JokeanIntento1/Pages/Home.razor]
+[C:/Users/m1tri/Downloads/JokeanAPP/JokeanIntento1/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-s9hbo89a8n
 
-[C:/Users/Kate/source/repos/AfbuX/JokeanAPP/JokeanIntento1/Pages/Reservar.razor]
+[C:/Users/m1tri/Downloads/JokeanAPP/JokeanIntento1/Pages/Reservar.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-pnqwunwm0b
