@@ -2061,9 +2061,6 @@ C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compr
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\9fdvoy97ba-tptq2av103.gz
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\tj1rm9qru2-lfu7j35m59.gz
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\wvf6ar0qp2-oyz0vx2fzb.gz
-C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\8mtpgtdzyn-zltgtynk59.gz
-C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\1iw1gux6wz-l96ivkyloi.gz
-C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\wz29obo641-s62bv8cy7a.gz
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\staticwebassets.development.json
@@ -2074,3 +2071,7 @@ C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\Jokea
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\refint\JokeanIntento1.dll
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\JokeanIntento1.pdb
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\ref\JokeanIntento1.dll
+C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\scopedcss\Pages\Reservar.razor.rz.scp.css
+C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\8mtpgtdzyn-5j0j9xofi8.gz
+C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\1iw1gux6wz-uquhiohj7e.gz
+C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\wz29obo641-ku2t1b6ial.gz

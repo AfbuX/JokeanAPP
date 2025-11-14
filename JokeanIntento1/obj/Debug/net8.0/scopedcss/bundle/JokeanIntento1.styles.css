@@ -8,8 +8,8 @@
        Se debe usar 'text' o 'content-box', no la propiedad CSS 'text' como valor.
        Asegúrate que la propiedad 'background-clip' esté bien escrita. */
     background: linear-gradient(90deg, var(--primary), var(--secondary));
-    -webkit-background-clip: 'text';
-    background-clip: 'text';
+    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     text-shadow: 0 0 15px rgba(157, 0, 255, 0.5);
     animation: pulse-b-s9hbo89a8n 3s infinite alternate;
@@ -76,7 +76,7 @@
     left: 50%;
     top: 50%;
     margin-left: calc(var(--card-width) / -2);
-    margin-top: calc(var(--card-height) / -2);
+    margin-top: calc(var(--card-height) / -2.3);
     transform-style: preserve-3d;
     transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
@@ -144,17 +144,12 @@
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.memory-image[b-s9hbo89a8n] {
+.memory-img[b-s9hbo89a8n] {
     width: 100%;
-    height: 150px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    background: rgba(0, 0, 0, 0.3);
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
     .memory-image i[b-s9hbo89a8n] {
@@ -339,4 +334,60 @@ footer[b-s9hbo89a8n] {
     .carousel-container[b-s9hbo89a8n] {
         height: 350px;
     }
+}
+/* /Pages/Reservar.razor.rz.scp.css */
+.form-card[b-pnqwunwm0b] {
+    background: linear-gradient( 135deg, rgba(30, 30, 60, 0.85), rgba(20, 20, 40, 0.95) );
+    border: 1px solid rgba(157, 0, 255, 0.25);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 0 25px rgba(157, 0, 255, 0.2);
+    backdrop-filter: blur(8px);
+    margin: 20px auto;
+    max-width: 650px;
+}
+
+.form-title[b-pnqwunwm0b] {
+    font-size: 1.8rem;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 12px rgba(157, 0, 255, 0.6);
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.form-label[b-pnqwunwm0b] {
+    color: var(--text-primary);
+    font-weight: 600;
+    margin-bottom: 4px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.form-control[b-pnqwunwm0b] {
+    background: rgba(15, 15, 30, 0.8);
+    border: 1px solid rgba(157, 0, 255, 0.35);
+    border-radius: 10px;
+    color: var(--text-primary);
+    padding: 10px 12px;
+    box-shadow: 0 0 10px rgba(157, 0, 255, 0.15);
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus[b-pnqwunwm0b] {
+        outline: none;
+        border-color: var(--secondary);
+        box-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
+        background: rgba(20, 20, 40, 0.9);
+    }
+
+
+
+.glow-line[b-pnqwunwm0b] {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+    margin: 10px 0 20px 0;
+    opacity: 0.5;
 }

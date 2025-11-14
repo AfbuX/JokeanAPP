@@ -1,4 +1,4 @@
 wwwroot\css\app.css
 wwwroot\icon-192.png
-wwwroot\js\carusel.js
 wwwroot\index.html
+wwwroot\js\carousel.js

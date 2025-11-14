@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\wwwroot\\js\\carusel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\wwwroot\\js\\carusel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\pages\\reservar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\pages\\reservar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -31,12 +35,8 @@
       "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\pages\\post\\listarposts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|c:\\users\\kate\\source\\repos\\afbux\\jokeanapp\\jokeanintento1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{27E3E285-1C1E-4395-B1C3-C9965AD9F422}|JokeanIntento1\\JokeanIntento1.csproj|solutionrelative:jokeanintento1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,49 +46,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "carusel.js",
-              "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\wwwroot\\js\\carusel.js",
-              "RelativeDocumentMoniker": "JokeanIntento1\\wwwroot\\js\\carusel.js",
-              "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\wwwroot\\js\\carusel.js",
-              "RelativeToolTip": "JokeanIntento1\\wwwroot\\js\\carusel.js",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAkwFQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-12T03:48:41.473Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-12T03:34:51.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "JokeanIntento1\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "JokeanIntento1\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwDgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-07T22:31:59.005Z",
+              "DocumentIndex": 0,
+              "Title": "Reservar.razor",
+              "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Pages\\Reservar.razor",
+              "RelativeDocumentMoniker": "JokeanIntento1\\Pages\\Reservar.razor",
+              "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Pages\\Reservar.razor",
+              "RelativeToolTip": "JokeanIntento1\\Pages\\Reservar.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T02:37:02.878Z",
               "EditorCaption": ""
             },
             {
@@ -99,14 +73,52 @@
               "RelativeDocumentMoniker": "JokeanIntento1\\wwwroot\\index.html",
               "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\wwwroot\\index.html",
               "RelativeToolTip": "JokeanIntento1\\wwwroot\\index.html",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-11-07T22:28:57.745Z",
+              "WhenOpened": "2025-11-14T02:32:32.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-12T03:34:51.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "JokeanIntento1\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "JokeanIntento1\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-07T22:31:59.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "JokeanIntento1\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Pages\\Home.razor",
+              "RelativeToolTip": "JokeanIntento1\\Pages\\Home.razor",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswGwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T21:47:45.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ListarPosts.razor",
               "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Pages\\Post\\ListarPosts.razor",
               "RelativeDocumentMoniker": "JokeanIntento1\\Pages\\Post\\ListarPosts.razor",
@@ -119,13 +131,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Home.razor.css",
               "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Pages\\Home.razor.css",
               "RelativeDocumentMoniker": "JokeanIntento1\\Pages\\Home.razor.css",
               "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Pages\\Home.razor.css",
               "RelativeToolTip": "JokeanIntento1\\Pages\\Home.razor.css",
-              "ViewState": "AgIAAD4BAAAAAAAAAAAIwFUBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAJUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-11-07T22:20:40.09Z",
               "EditorCaption": ""
@@ -133,32 +145,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "JokeanIntento1\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Pages\\Home.razor",
-              "RelativeToolTip": "JokeanIntento1\\Pages\\Home.razor",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAkwPgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-07T21:47:45.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "JokeanIntento1\\Layout\\MainLayout.razor",
               "ToolTip": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\Layout\\MainLayout.razor",
               "RelativeToolTip": "JokeanIntento1\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-07T21:45:24.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Kate\\source\\repos\\AfbuX\\JokeanAPP\\JokeanIntento1\\_Imports.razor",
               "RelativeDocumentMoniker": "JokeanIntento1\\_Imports.razor",
@@ -166,7 +165,8 @@
               "RelativeToolTip": "JokeanIntento1\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-07T21:09:12.818Z"
+              "WhenOpened": "2025-11-07T21:09:12.818Z",
+              "EditorCaption": ""
             }
           ]
         }

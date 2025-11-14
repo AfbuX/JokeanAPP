@@ -1,0 +1,97 @@
+﻿@page "/reservar/{servicioId:int}"
+
+@inject HttpClient Http
+@inject NavigationManager Nav
+
+@if (servicio == null)
+{
+    <div class="alert alert-info">Cargando información del servicio...</div>
+}
+else
+{
+    <div class="form-card">
+
+        <h2 class="form-title">Nueva reserva de servicio</h2>
+        <div class="glow-line"></div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label class="form-label"><strong>Fecha de la reserva</strong></label>
+                <input type="date" class="form-control" @bind="formFecha" required />
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label class="form-label"><strong>Dirección de origen</strong></label>
+                <input class="form-control" @bind="formOrigen" required />
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label class="form-label"><strong>Dirección destino</strong></label>
+                <input class="form-control" @bind="formDestino" required />
+            </div>
+
+            <div class="col-md-12 mb-3">
+                <label class="form-label"><strong>Notas</strong></label>
+                <textarea class="form-control" rows="3" @bind="formNotas"></textarea>
+            </div>
+        </div>
+
+        <button class="submit-btn p-2" @onclick="GuardarServicio">
+            Guardar Reserva
+        </button>
+    </div>
+
+}
+
+@code {
+
+    [Parameter] public int servicioId { get; set; }
+
+    ServicioDTO? servicio;
+
+    DateTime? formFecha;
+    string? formOrigen;
+    string? formDestino;
+    string? formNotas;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // cuando exista API:
+        // servicio = await Http.GetFromJsonAsync<ServicioDTO>($"api/servicios/{servicioId}");
+
+        // temporal mientras no tengas API
+        servicio = new ServicioDTO
+        {
+            TipoTransporte = "Camión sencillo",
+            NombreConductor = "Carlos López",
+            Vehiculo = "NHR",
+            TelefonoConductor = "3001234567",
+            Descripcion = "Servicio de ejemplo",
+            Valor = 180000
+        };
+    }
+
+    async Task GuardarServicio()
+    {
+        // aquí enviar a API
+        Console.WriteLine($"Reserva enviada para: {servicio?.NombreConductor}");
+
+        Nav.NavigateTo("/");
+    }
+
+    void Volver()
+    {
+        Nav.NavigateTo("/");
+    }
+
+    public class ServicioDTO
+    {
+        public string? TipoTransporte { get; set; }
+        public string? NombreConductor { get; set; }
+        public string? Vehiculo { get; set; }
+        public string? TelefonoConductor { get; set; }
+        public string? Descripcion { get; set; }
+        public decimal Valor { get; set; }
+        public string? Estado { get; set; }
+    }
+}

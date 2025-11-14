@@ -75,7 +75,7 @@
     left: 50%;
     top: 50%;
     margin-left: calc(var(--card-width) / -2);
-    margin-top: calc(var(--card-height) / -2);
+    margin-top: calc(var(--card-height) / -2.3);
     transform-style: preserve-3d;
     transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
@@ -143,17 +143,12 @@
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.memory-image {
+.memory-img {
     width: 100%;
-    height: 150px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    background: rgba(0, 0, 0, 0.3);
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
     .memory-image i {
