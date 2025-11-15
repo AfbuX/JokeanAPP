@@ -2072,6 +2072,6 @@ C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\refin
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\JokeanIntento1.pdb
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\ref\JokeanIntento1.dll
 C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\scopedcss\Pages\Reservar.razor.rz.scp.css
-C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\8mtpgtdzyn-5j0j9xofi8.gz
-C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\1iw1gux6wz-uquhiohj7e.gz
-C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\wz29obo641-ku2t1b6ial.gz
+C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\8mtpgtdzyn-p5mm0eb7fo.gz
+C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\1iw1gux6wz-6v7c4cckhn.gz
+C:\Users\Kate\source\repos\AfbuX\JokeanAPP\JokeanIntento1\obj\Debug\net8.0\compressed\wz29obo641-4zaik9jr9o.gz

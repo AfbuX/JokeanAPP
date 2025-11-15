@@ -23,21 +23,19 @@
                             <div class="card-front">
                                 <div class="card-content">
                                     <div class="memory-date">
-                                        @s.TipoTransporte
+                                        @s.TipoNombre
                                     </div>
 
-                                    <h3>@s.NombreConductor</h3>
-
 
                                     <p class="memory-preview">
-                                        @s.Descripcion
+                                        @s.TipoDescripcion
                                     </p>
 
-                                    <img src="@GetImagenPorTipo(s.TipoTransporte)" class="card-img-top memory-img" />
+                                    <img src="@GetImagenPorTipo(s.TipoNombre)" class="card-img-top memory-img" />
 
                                     <p class="memory-preview">
-                                        <strong>Valor:</strong> $@s.Valor <br />
-                                        <strong>Estado:</strong> @s.Estado
+                                        <strong>Marca:</strong> $@s.Marca <br />
+                                        <strong>Placa:</strong> @s.Placa
                                     </p>
 
                                    <button class="submit-btn fs-6" @onclick="() => IrAReserva(s)">
@@ -53,11 +51,12 @@
 
                                     <h3>Detalles del servicio</h3>
 
-                                    <p><strong>Conductor:</strong> @s.NombreConductor</p>
-                                    <p><strong>Vehículo:</strong> @s.Vehiculo</p>
-                                    <p><strong>Teléfono:</strong> @s.TelefonoConductor</p
+                                  
+                                    <p><strong>Vehículo:</strong> @s.TipoNombre</p>
+                                      <p><strong>Descripcion:</strong> @s.TipoDescripcion</p
+                                    <p><strong>Modelo:</strong> @s.Modelo</p
 
-                                    <p><strong>Descripción:</strong><br /> @s.Descripcion</p>
+                                    <p><strong>Capacidad:</strong><br /> @s.Capacidad</p>
 
                                 </div>
                             </div>
@@ -83,7 +82,21 @@
 
 @code {
 
-    [Inject] private IJSRuntime JS { get; set; } protected override async Task OnAfterRenderAsync(bool firstRender) { if (firstRender) { await JS.InvokeVoidAsync("initCarousel"); } }
+    bool carouselInicializado = false;
+
+
+    [Inject] private IJSRuntime JS { get; set; } 
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        // Si ya tengo servicios cargados y aún no he inicializado el carrusel
+        if (!carouselInicializado && servicios?.Count > 0)
+        {
+            carouselInicializado = true;
+            await JS.InvokeVoidAsync("initCarousel");
+        }
+    }
+
 
     List<ServicioDTO> servicios = new();
 
@@ -95,73 +108,54 @@
 
     protected override async Task OnInitializedAsync()
     {
-        // Cuando tengas API, SOLO activas esta línea:
-        // servicios = await Http.GetFromJsonAsync<List<ServicioDTO>>("api/servicios");
-
-        // Datos de ejemplo mientras la API no está conectada
-        servicios = new List<ServicioDTO>
+        try
         {
-            new ServicioDTO {
-                TipoTransporte = "Camión sencillo",
-                NombreConductor = "Carlos López",
-                Vehiculo = "Chevrolet NHR",
-                TelefonoConductor = "3001234567",
-                DireccionOrigen = "Calle 10 #5-11",
-                DireccionDestino = "Av 80 # 45-90",
-                Descripcion = "Transporte de carga liviana",
-                Valor = 180000,
-                Estado = "Disponible"
-            },
-            new ServicioDTO {
-                TipoTransporte = "Furgón",
-                NombreConductor = "Juan Martínez",
-                Vehiculo = "Furgón Hyundai",
-                TelefonoConductor = "3019988776",
-                DireccionOrigen = "Cra 30 # 20-10",
-                DireccionDestino = "Itagüí",
-                Descripcion = "Transporte refrigerado",
-                Valor = 250000,
-                Estado = "Disponible"
-            }
-        };
+            servicios = await Http.GetFromJsonAsync<List<ServicioDTO>>("api/Transporte/vm");
+            StateHasChanged();  // fuerza render
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al consumir API: {ex.Message}");
+        }
     }
 
-    // Clase que representa un servicio (DEBE COINCIDIR CON TU BASE DE DATOS)
+
     public class ServicioDTO
     {
-        public string? ImagenUrl { get; set; }
+        // Transporte
+        public int TransporteId { get; set; }
+        public string? Placa { get; set; }
+        public string? Marca { get; set; }
+        public string? Modelo { get; set; }
+        public int Capacidad { get; set; }
 
-        public string? TipoTransporte { get; set; }
-        public string? NombreConductor { get; set; }
-        public string? Vehiculo { get; set; }
-        public string? TelefonoConductor { get; set; }
-        public string? DireccionOrigen { get; set; }
-        public string? DireccionDestino { get; set; }
-        public string? Descripcion { get; set; }
-        public decimal Valor { get; set; }
-        public string? Estado { get; set; }
+        // TipoTransporte
+        public string? TipoNombre { get; set; }
+        public string? TipoDescripcion { get; set; }
     }
 
     string GetImagenPorTipo(string? tipo)
     {
+        Console.WriteLine($"TIPO: {tipo}");
         if (string.IsNullOrWhiteSpace(tipo))
             return "https://images.unsplash.com/photo-1502877338535-766e1452684a";
 
-        tipo = tipo.ToLower();
-
-        if (tipo.Contains("Chiva"))
+        if (tipo == "Chiva")
             return "https://chivasrumba.com.co/wp-content/uploads/2024/03/chiva-rumbera-1-1020x1024.jpg";
 
-        if (tipo.Contains("Moto"))
+        if (tipo == "Moto")
             return "https://thumbs.dreamstime.com/b/motocicleta-futurista-bajo-un-brillante-cielo-ne%C3%B3n-en-ocaso-una-elegante-con-brillantes-llantas-azules-descansa-paisaje-al-aire-384338010.jpg";
 
-        if (tipo.Contains("Bicitaxi"))
+        if (tipo == "Bicitaxi")
             return "https://static.vecteezy.com/system/resources/previews/026/991/586/non_2x/rickshaw-of-a-beautiful-transportation-with-futuristic-design-ai-generated-photo.jpg";
 
-        if (tipo.Contains("Jeep"))
+        if (tipo == "Jeep")
         return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3UiiLZWYQjSdP76COzXOIxh_5jHPG1-BlHw&s";
-        if (tipo.Contains("Lancha"))
+        if (tipo == "Lancha")
         return "https://restagenciaturistica.com/wp-content/uploads/2019/05/CENA-SIBARITA.-PABLO.jpg";
+
+        if (tipo == "Taxi")
+        return "https://getvico.com/blog/wp-content/uploads/2018/01/Taxi-Medellin.jpg";
 
 
         return "https://images.unsplash.com/photo-1502877338535-766e1452684a"; // por defecto

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "JokeanIntento1",
   "resources": {
-    "hash": "sha256-bHHy2iGXutJV7sv98XrMLR9DRuQWjbUTd8VnHFBS9Mg=",
+    "hash": "sha256-i7jHmumvun0QYxJUClmspSfHTVkn0PzSBqEVTbUWKDQ=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-vtotCeXt2UD6oc459laJT32vBgigZ+eLoUmdeFkvYDk="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-RLW/7NVuhoPfq151II3kX2kWHgBwQgpCw9aemQNg3to=",
       "netstandard.wasm": "sha256-lAg5WvTiA8wbsIwlr51xh0YWpXT9F5EX3Cnv+11O/mU=",
       "System.Private.CoreLib.wasm": "sha256-3O3muuRQwoLRecYRjfIFWUURvTjP4EmD2O8wYg2UDNY=",
-      "JokeanIntento1.wasm": "sha256-j2kLTHNOBtbo6hbqCgq/EPhool0c17V0qVWb0IDODTs="
+      "JokeanIntento1.wasm": "sha256-U35ybkD8KPnMCv495Wc87AElvgfaBIJUrS+5wVwnj7I="
     },
     "pdb": {
-      "JokeanIntento1.pdb": "sha256-Gsgoxp/hLvukqcdxzhqe9NIweByK0JjZcFp/yHkBcbU="
+      "JokeanIntento1.pdb": "sha256-0qYNWYmSrzYzk2fHwlN8cLdSQSpTqQhRUuiyRhejrjI="
     }
   },
   "cacheBootResources": true,
